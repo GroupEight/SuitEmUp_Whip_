@@ -1,0 +1,1009 @@
+Simple plain text exporter for demo purposes
+
+See http://www.grantlee.org/apidox/for_themers.html for more information
+
+Texture data:
+    texture.width  = 1254
+    texture.height = 425
+
+    texture.trimmedName = Player_Anim_Run
+    texture.fullName = Player_Anim_Run.png
+    texture.absoluteFileName = C:/Users/Sky/Documents/Visual Studio 2012/Projects/SFML_Engine_Base1/SFML_Engine_Base/Resources/Graphics/Player_Anim/Run/Player_Anim_Run.png
+
+SmartUpdateHash: $TexturePacker:SmartUpdate:39f0982d585ca683ed786895d69c088d:4f0c5db865ee00c01b20c4ab91912012:51073253a95119c9eb235352254903ab$
+
+Settings:
+
+Access to all values in the settings (.tps file):
+
+settings.allowRotation          = false
+settings.autoAliasEnabled       = false
+settings.flipPVR                = false
+settings.forceIdenticalLayout   = false
+settings.multiPack              = false
+settings.premultiplyAlpha       = false
+settings.shapeDebug             = false
+settings.trimSpriteNames        = false
+settings.verbose                = 
+settings.fixedTextureSize       = -1 x -1
+settings.dataFormat             = plain
+settings.ditherTypeName         = NearestNeighbour
+settings.outputFormatName       = RGBA8888
+settings.textureFormatName      = png
+settings.textureSubPath         = 
+settings.variation              = 
+settings.ditherType             = NearestNeighbour
+settings.outputFormat           = RGBA8888
+settings.textureFormat          = png
+settings.backgroundColor        = 0
+settings.borderPadding          = 0
+settings.commonDivisorX         = 1
+settings.commonDivisorY         = 1
+settings.dpi                    = 72
+settings.jpgQuality             = 80
+settings.pngOptimizationLevel   = 0
+settings.shapePadding           = 0
+settings.reduceBorderArtifacts  = false
+
+settings.contentProtection.key  = 
+
+Variants:
+
+---
+variant.scale = 1
+variant.extension = 
+variant.spriteFilter = 
+variant.acceptFractionalValues = false
+variant.maxTextureSize = -1 x -1
+
+
+
+Not yet available:
+
+settings.dataFileNames          = 
+settings.textureFileName        = 
+settings.algorithmSettings      = 
+settings.globalSpriteSettings   = 
+
+Adjusted values for the current autosd variant:
+
+variantParams.scale             = 0.5
+variantParams.shapePadding      = 0
+variantParams.borderPadding     = 0
+variantParams.commonDivisorX    = 1
+variantParams.commonDivisorY    = 1
+variantParams.extrude           = 0
+variantParams.baseFactor        = 1
+variantParams.maxTextureSize    = 2048 x 2048
+variantParams.fixedTextureSize  = -1 x -1
+
+Sprite data:
+
+There are 2 variants:
+- sprites - contains the sprites, aliases are available in the
+  aliasList property and are not added top level
+
+- allSprites - list of all sprites
+
+Load javascript filter plugin, must be located in the exporter's folder in a subfolder
+grantlee/0.2/makecssselector.qs
+
+
+// set width & height for calculations using the javascript filter
+
+
+
+
+    =========================================================================
+
+    Use the javascript filter plugin to replace -hover with :hover
+    Player_Anim_Run_0000.png
+
+    -- name without image type extension
+    sprite.trimmedName      = Player_Anim_Run_0000
+
+    -- name with image extension
+    sprite.fullName         = Player_Anim_Run_0000.png
+
+    -- offset of the center of the trimmed sprite from the
+    -- center of the original sprite (used by cocos2d)
+    sprite.absoluteOffset.x = 
+    sprite.absoluteOffset.y = 
+
+    -- list of alias sprites for this one
+    sprite.aliasList = 
+
+    --- frame rectangle with pixel coordinates
+    sprite.frameRect.x = 0
+    sprite.frameRect.y = 0
+    sprite.frameRect.width = 209
+    sprite.frameRect.height = 210
+
+    --- frame rectangle with uv coordinates (0..1)
+    sprite.frameRectRel.x = 0
+    sprite.frameRectRel.y = 0
+    sprite.frameRectRel.width = 0.166666666666667
+    sprite.frameRectRel.height = 0.494117647058824
+
+    --- frame rectangle with uv coordinates (0..1) calculated through JS
+    sprite.frameRectRel.x = 0
+    sprite.frameRectRel.y = 0
+    sprite.frameRectRel.width = 0.16666666666666666
+    sprite.frameRectRel.height = 0.1674641148325359
+
+    --- version of the frame rect with "original" width and height
+    sprite.frameRectWithoutRotation.x = 0
+    sprite.frameRectWithoutRotation.y = 0
+    sprite.frameRectWithoutRotation.width = 209
+    sprite.frameRectWithoutRotation.height = 210
+
+    -- true if the sprite was rotated
+    sprite.rotated        = false
+
+    -- true if the sprite does not contain any transparent pixels
+    sprite.isSolid        = true
+
+    -- true if the sprite was trimmed
+    sprite.trimmed        = false
+
+    sprite.sourceRect.x = 0
+    sprite.sourceRect.y = 0
+    sprite.sourceRect.width = 209
+    sprite.sourceRect.height = 210
+
+    sprite.cornerOffset.x = 0
+    sprite.cornerOffset.y = 0
+
+    sprite.untrimmedSize.width = 209
+    sprite.untrimmedSize.height = 210
+
+    -- the file absolute file name of the sprite
+    sprite.fileData.absoluteFileName = C:/Users/Sky/Documents/Visual Studio 2012/Projects/SFML_Engine_Base1/SFML_Engine_Base/Resources/Graphics/Player_Anim/Run/Player_Anim_Run_0000.png
+
+    -- the modification date of the sprite
+    sprite.fileData.lastModified = 2014-01-25T12:41:40
+
+    -- the creation date of the sprite
+    sprite.fileData.created = 2014-01-25T12:41:40
+
+    -- the file size of the sprite
+    sprite.fileData.fileSize = 65263
+
+
+    =========================================================================
+
+    Use the javascript filter plugin to replace -hover with :hover
+    Player_Anim_Run_0001.png
+
+    -- name without image type extension
+    sprite.trimmedName      = Player_Anim_Run_0001
+
+    -- name with image extension
+    sprite.fullName         = Player_Anim_Run_0001.png
+
+    -- offset of the center of the trimmed sprite from the
+    -- center of the original sprite (used by cocos2d)
+    sprite.absoluteOffset.x = 
+    sprite.absoluteOffset.y = 
+
+    -- list of alias sprites for this one
+    sprite.aliasList = 
+
+    --- frame rectangle with pixel coordinates
+    sprite.frameRect.x = 209
+    sprite.frameRect.y = 0
+    sprite.frameRect.width = 209
+    sprite.frameRect.height = 210
+
+    --- frame rectangle with uv coordinates (0..1)
+    sprite.frameRectRel.x = 0.166666666666667
+    sprite.frameRectRel.y = 0
+    sprite.frameRectRel.width = 0.166666666666667
+    sprite.frameRectRel.height = 0.494117647058824
+
+    --- frame rectangle with uv coordinates (0..1) calculated through JS
+    sprite.frameRectRel.x = 0.16666666666666666
+    sprite.frameRectRel.y = 0
+    sprite.frameRectRel.width = 0.16666666666666666
+    sprite.frameRectRel.height = 0.1674641148325359
+
+    --- version of the frame rect with "original" width and height
+    sprite.frameRectWithoutRotation.x = 209
+    sprite.frameRectWithoutRotation.y = 0
+    sprite.frameRectWithoutRotation.width = 209
+    sprite.frameRectWithoutRotation.height = 210
+
+    -- true if the sprite was rotated
+    sprite.rotated        = false
+
+    -- true if the sprite does not contain any transparent pixels
+    sprite.isSolid        = true
+
+    -- true if the sprite was trimmed
+    sprite.trimmed        = false
+
+    sprite.sourceRect.x = 0
+    sprite.sourceRect.y = 0
+    sprite.sourceRect.width = 209
+    sprite.sourceRect.height = 210
+
+    sprite.cornerOffset.x = 0
+    sprite.cornerOffset.y = 0
+
+    sprite.untrimmedSize.width = 209
+    sprite.untrimmedSize.height = 210
+
+    -- the file absolute file name of the sprite
+    sprite.fileData.absoluteFileName = C:/Users/Sky/Documents/Visual Studio 2012/Projects/SFML_Engine_Base1/SFML_Engine_Base/Resources/Graphics/Player_Anim/Run/Player_Anim_Run_0001.png
+
+    -- the modification date of the sprite
+    sprite.fileData.lastModified = 2014-01-25T12:41:43
+
+    -- the creation date of the sprite
+    sprite.fileData.created = 2014-01-25T12:41:42
+
+    -- the file size of the sprite
+    sprite.fileData.fileSize = 66940
+
+
+    =========================================================================
+
+    Use the javascript filter plugin to replace -hover with :hover
+    Player_Anim_Run_0002.png
+
+    -- name without image type extension
+    sprite.trimmedName      = Player_Anim_Run_0002
+
+    -- name with image extension
+    sprite.fullName         = Player_Anim_Run_0002.png
+
+    -- offset of the center of the trimmed sprite from the
+    -- center of the original sprite (used by cocos2d)
+    sprite.absoluteOffset.x = 
+    sprite.absoluteOffset.y = 
+
+    -- list of alias sprites for this one
+    sprite.aliasList = 
+
+    --- frame rectangle with pixel coordinates
+    sprite.frameRect.x = 418
+    sprite.frameRect.y = 0
+    sprite.frameRect.width = 209
+    sprite.frameRect.height = 210
+
+    --- frame rectangle with uv coordinates (0..1)
+    sprite.frameRectRel.x = 0.333333333333333
+    sprite.frameRectRel.y = 0
+    sprite.frameRectRel.width = 0.166666666666667
+    sprite.frameRectRel.height = 0.494117647058824
+
+    --- frame rectangle with uv coordinates (0..1) calculated through JS
+    sprite.frameRectRel.x = 0.3333333333333333
+    sprite.frameRectRel.y = 0
+    sprite.frameRectRel.width = 0.16666666666666666
+    sprite.frameRectRel.height = 0.1674641148325359
+
+    --- version of the frame rect with "original" width and height
+    sprite.frameRectWithoutRotation.x = 418
+    sprite.frameRectWithoutRotation.y = 0
+    sprite.frameRectWithoutRotation.width = 209
+    sprite.frameRectWithoutRotation.height = 210
+
+    -- true if the sprite was rotated
+    sprite.rotated        = false
+
+    -- true if the sprite does not contain any transparent pixels
+    sprite.isSolid        = true
+
+    -- true if the sprite was trimmed
+    sprite.trimmed        = false
+
+    sprite.sourceRect.x = 0
+    sprite.sourceRect.y = 0
+    sprite.sourceRect.width = 209
+    sprite.sourceRect.height = 210
+
+    sprite.cornerOffset.x = 0
+    sprite.cornerOffset.y = 0
+
+    sprite.untrimmedSize.width = 209
+    sprite.untrimmedSize.height = 210
+
+    -- the file absolute file name of the sprite
+    sprite.fileData.absoluteFileName = C:/Users/Sky/Documents/Visual Studio 2012/Projects/SFML_Engine_Base1/SFML_Engine_Base/Resources/Graphics/Player_Anim/Run/Player_Anim_Run_0002.png
+
+    -- the modification date of the sprite
+    sprite.fileData.lastModified = 2014-01-25T12:41:45
+
+    -- the creation date of the sprite
+    sprite.fileData.created = 2014-01-25T12:41:45
+
+    -- the file size of the sprite
+    sprite.fileData.fileSize = 66151
+
+
+    =========================================================================
+
+    Use the javascript filter plugin to replace -hover with :hover
+    Player_Anim_Run_0003.png
+
+    -- name without image type extension
+    sprite.trimmedName      = Player_Anim_Run_0003
+
+    -- name with image extension
+    sprite.fullName         = Player_Anim_Run_0003.png
+
+    -- offset of the center of the trimmed sprite from the
+    -- center of the original sprite (used by cocos2d)
+    sprite.absoluteOffset.x = 
+    sprite.absoluteOffset.y = 
+
+    -- list of alias sprites for this one
+    sprite.aliasList = 
+
+    --- frame rectangle with pixel coordinates
+    sprite.frameRect.x = 627
+    sprite.frameRect.y = 0
+    sprite.frameRect.width = 209
+    sprite.frameRect.height = 210
+
+    --- frame rectangle with uv coordinates (0..1)
+    sprite.frameRectRel.x = 0.5
+    sprite.frameRectRel.y = 0
+    sprite.frameRectRel.width = 0.166666666666667
+    sprite.frameRectRel.height = 0.494117647058824
+
+    --- frame rectangle with uv coordinates (0..1) calculated through JS
+    sprite.frameRectRel.x = 0.5
+    sprite.frameRectRel.y = 0
+    sprite.frameRectRel.width = 0.16666666666666666
+    sprite.frameRectRel.height = 0.1674641148325359
+
+    --- version of the frame rect with "original" width and height
+    sprite.frameRectWithoutRotation.x = 627
+    sprite.frameRectWithoutRotation.y = 0
+    sprite.frameRectWithoutRotation.width = 209
+    sprite.frameRectWithoutRotation.height = 210
+
+    -- true if the sprite was rotated
+    sprite.rotated        = false
+
+    -- true if the sprite does not contain any transparent pixels
+    sprite.isSolid        = true
+
+    -- true if the sprite was trimmed
+    sprite.trimmed        = false
+
+    sprite.sourceRect.x = 0
+    sprite.sourceRect.y = 0
+    sprite.sourceRect.width = 209
+    sprite.sourceRect.height = 210
+
+    sprite.cornerOffset.x = 0
+    sprite.cornerOffset.y = 0
+
+    sprite.untrimmedSize.width = 209
+    sprite.untrimmedSize.height = 210
+
+    -- the file absolute file name of the sprite
+    sprite.fileData.absoluteFileName = C:/Users/Sky/Documents/Visual Studio 2012/Projects/SFML_Engine_Base1/SFML_Engine_Base/Resources/Graphics/Player_Anim/Run/Player_Anim_Run_0003.png
+
+    -- the modification date of the sprite
+    sprite.fileData.lastModified = 2014-01-25T12:41:47
+
+    -- the creation date of the sprite
+    sprite.fileData.created = 2014-01-25T12:41:47
+
+    -- the file size of the sprite
+    sprite.fileData.fileSize = 67595
+
+
+    =========================================================================
+
+    Use the javascript filter plugin to replace -hover with :hover
+    Player_Anim_Run_0004.png
+
+    -- name without image type extension
+    sprite.trimmedName      = Player_Anim_Run_0004
+
+    -- name with image extension
+    sprite.fullName         = Player_Anim_Run_0004.png
+
+    -- offset of the center of the trimmed sprite from the
+    -- center of the original sprite (used by cocos2d)
+    sprite.absoluteOffset.x = 
+    sprite.absoluteOffset.y = 
+
+    -- list of alias sprites for this one
+    sprite.aliasList = 
+
+    --- frame rectangle with pixel coordinates
+    sprite.frameRect.x = 836
+    sprite.frameRect.y = 0
+    sprite.frameRect.width = 209
+    sprite.frameRect.height = 210
+
+    --- frame rectangle with uv coordinates (0..1)
+    sprite.frameRectRel.x = 0.666666666666667
+    sprite.frameRectRel.y = 0
+    sprite.frameRectRel.width = 0.166666666666667
+    sprite.frameRectRel.height = 0.494117647058824
+
+    --- frame rectangle with uv coordinates (0..1) calculated through JS
+    sprite.frameRectRel.x = 0.6666666666666666
+    sprite.frameRectRel.y = 0
+    sprite.frameRectRel.width = 0.16666666666666666
+    sprite.frameRectRel.height = 0.1674641148325359
+
+    --- version of the frame rect with "original" width and height
+    sprite.frameRectWithoutRotation.x = 836
+    sprite.frameRectWithoutRotation.y = 0
+    sprite.frameRectWithoutRotation.width = 209
+    sprite.frameRectWithoutRotation.height = 210
+
+    -- true if the sprite was rotated
+    sprite.rotated        = false
+
+    -- true if the sprite does not contain any transparent pixels
+    sprite.isSolid        = true
+
+    -- true if the sprite was trimmed
+    sprite.trimmed        = false
+
+    sprite.sourceRect.x = 0
+    sprite.sourceRect.y = 0
+    sprite.sourceRect.width = 209
+    sprite.sourceRect.height = 210
+
+    sprite.cornerOffset.x = 0
+    sprite.cornerOffset.y = 0
+
+    sprite.untrimmedSize.width = 209
+    sprite.untrimmedSize.height = 210
+
+    -- the file absolute file name of the sprite
+    sprite.fileData.absoluteFileName = C:/Users/Sky/Documents/Visual Studio 2012/Projects/SFML_Engine_Base1/SFML_Engine_Base/Resources/Graphics/Player_Anim/Run/Player_Anim_Run_0004.png
+
+    -- the modification date of the sprite
+    sprite.fileData.lastModified = 2014-01-25T12:41:50
+
+    -- the creation date of the sprite
+    sprite.fileData.created = 2014-01-25T12:41:49
+
+    -- the file size of the sprite
+    sprite.fileData.fileSize = 69424
+
+
+    =========================================================================
+
+    Use the javascript filter plugin to replace -hover with :hover
+    Player_Anim_Run_0005.png
+
+    -- name without image type extension
+    sprite.trimmedName      = Player_Anim_Run_0005
+
+    -- name with image extension
+    sprite.fullName         = Player_Anim_Run_0005.png
+
+    -- offset of the center of the trimmed sprite from the
+    -- center of the original sprite (used by cocos2d)
+    sprite.absoluteOffset.x = 
+    sprite.absoluteOffset.y = 
+
+    -- list of alias sprites for this one
+    sprite.aliasList = 
+
+    --- frame rectangle with pixel coordinates
+    sprite.frameRect.x = 1045
+    sprite.frameRect.y = 0
+    sprite.frameRect.width = 209
+    sprite.frameRect.height = 210
+
+    --- frame rectangle with uv coordinates (0..1)
+    sprite.frameRectRel.x = 0.833333333333333
+    sprite.frameRectRel.y = 0
+    sprite.frameRectRel.width = 0.166666666666667
+    sprite.frameRectRel.height = 0.494117647058824
+
+    --- frame rectangle with uv coordinates (0..1) calculated through JS
+    sprite.frameRectRel.x = 0.8333333333333334
+    sprite.frameRectRel.y = 0
+    sprite.frameRectRel.width = 0.16666666666666666
+    sprite.frameRectRel.height = 0.1674641148325359
+
+    --- version of the frame rect with "original" width and height
+    sprite.frameRectWithoutRotation.x = 1045
+    sprite.frameRectWithoutRotation.y = 0
+    sprite.frameRectWithoutRotation.width = 209
+    sprite.frameRectWithoutRotation.height = 210
+
+    -- true if the sprite was rotated
+    sprite.rotated        = false
+
+    -- true if the sprite does not contain any transparent pixels
+    sprite.isSolid        = true
+
+    -- true if the sprite was trimmed
+    sprite.trimmed        = false
+
+    sprite.sourceRect.x = 0
+    sprite.sourceRect.y = 0
+    sprite.sourceRect.width = 209
+    sprite.sourceRect.height = 210
+
+    sprite.cornerOffset.x = 0
+    sprite.cornerOffset.y = 0
+
+    sprite.untrimmedSize.width = 209
+    sprite.untrimmedSize.height = 210
+
+    -- the file absolute file name of the sprite
+    sprite.fileData.absoluteFileName = C:/Users/Sky/Documents/Visual Studio 2012/Projects/SFML_Engine_Base1/SFML_Engine_Base/Resources/Graphics/Player_Anim/Run/Player_Anim_Run_0005.png
+
+    -- the modification date of the sprite
+    sprite.fileData.lastModified = 2014-01-25T12:41:52
+
+    -- the creation date of the sprite
+    sprite.fileData.created = 2014-01-25T12:41:52
+
+    -- the file size of the sprite
+    sprite.fileData.fileSize = 68293
+
+
+    =========================================================================
+
+    Use the javascript filter plugin to replace -hover with :hover
+    Player_Anim_Run_0006.png
+
+    -- name without image type extension
+    sprite.trimmedName      = Player_Anim_Run_0006
+
+    -- name with image extension
+    sprite.fullName         = Player_Anim_Run_0006.png
+
+    -- offset of the center of the trimmed sprite from the
+    -- center of the original sprite (used by cocos2d)
+    sprite.absoluteOffset.x = 
+    sprite.absoluteOffset.y = 
+
+    -- list of alias sprites for this one
+    sprite.aliasList = 
+
+    --- frame rectangle with pixel coordinates
+    sprite.frameRect.x = 0
+    sprite.frameRect.y = 210
+    sprite.frameRect.width = 209
+    sprite.frameRect.height = 210
+
+    --- frame rectangle with uv coordinates (0..1)
+    sprite.frameRectRel.x = 0
+    sprite.frameRectRel.y = 0.494117647058824
+    sprite.frameRectRel.width = 0.166666666666667
+    sprite.frameRectRel.height = 0.494117647058824
+
+    --- frame rectangle with uv coordinates (0..1) calculated through JS
+    sprite.frameRectRel.x = 0
+    sprite.frameRectRel.y = 0.1674641148325359
+    sprite.frameRectRel.width = 0.16666666666666666
+    sprite.frameRectRel.height = 0.1674641148325359
+
+    --- version of the frame rect with "original" width and height
+    sprite.frameRectWithoutRotation.x = 0
+    sprite.frameRectWithoutRotation.y = 210
+    sprite.frameRectWithoutRotation.width = 209
+    sprite.frameRectWithoutRotation.height = 210
+
+    -- true if the sprite was rotated
+    sprite.rotated        = false
+
+    -- true if the sprite does not contain any transparent pixels
+    sprite.isSolid        = true
+
+    -- true if the sprite was trimmed
+    sprite.trimmed        = false
+
+    sprite.sourceRect.x = 0
+    sprite.sourceRect.y = 0
+    sprite.sourceRect.width = 209
+    sprite.sourceRect.height = 210
+
+    sprite.cornerOffset.x = 0
+    sprite.cornerOffset.y = 0
+
+    sprite.untrimmedSize.width = 209
+    sprite.untrimmedSize.height = 210
+
+    -- the file absolute file name of the sprite
+    sprite.fileData.absoluteFileName = C:/Users/Sky/Documents/Visual Studio 2012/Projects/SFML_Engine_Base1/SFML_Engine_Base/Resources/Graphics/Player_Anim/Run/Player_Anim_Run_0006.png
+
+    -- the modification date of the sprite
+    sprite.fileData.lastModified = 2014-01-25T12:41:53
+
+    -- the creation date of the sprite
+    sprite.fileData.created = 2014-01-25T12:41:53
+
+    -- the file size of the sprite
+    sprite.fileData.fileSize = 69424
+
+
+    =========================================================================
+
+    Use the javascript filter plugin to replace -hover with :hover
+    Player_Anim_Run_0007.png
+
+    -- name without image type extension
+    sprite.trimmedName      = Player_Anim_Run_0007
+
+    -- name with image extension
+    sprite.fullName         = Player_Anim_Run_0007.png
+
+    -- offset of the center of the trimmed sprite from the
+    -- center of the original sprite (used by cocos2d)
+    sprite.absoluteOffset.x = 
+    sprite.absoluteOffset.y = 
+
+    -- list of alias sprites for this one
+    sprite.aliasList = 
+
+    --- frame rectangle with pixel coordinates
+    sprite.frameRect.x = 209
+    sprite.frameRect.y = 210
+    sprite.frameRect.width = 209
+    sprite.frameRect.height = 210
+
+    --- frame rectangle with uv coordinates (0..1)
+    sprite.frameRectRel.x = 0.166666666666667
+    sprite.frameRectRel.y = 0.494117647058824
+    sprite.frameRectRel.width = 0.166666666666667
+    sprite.frameRectRel.height = 0.494117647058824
+
+    --- frame rectangle with uv coordinates (0..1) calculated through JS
+    sprite.frameRectRel.x = 0.16666666666666666
+    sprite.frameRectRel.y = 0.1674641148325359
+    sprite.frameRectRel.width = 0.16666666666666666
+    sprite.frameRectRel.height = 0.1674641148325359
+
+    --- version of the frame rect with "original" width and height
+    sprite.frameRectWithoutRotation.x = 209
+    sprite.frameRectWithoutRotation.y = 210
+    sprite.frameRectWithoutRotation.width = 209
+    sprite.frameRectWithoutRotation.height = 210
+
+    -- true if the sprite was rotated
+    sprite.rotated        = false
+
+    -- true if the sprite does not contain any transparent pixels
+    sprite.isSolid        = true
+
+    -- true if the sprite was trimmed
+    sprite.trimmed        = false
+
+    sprite.sourceRect.x = 0
+    sprite.sourceRect.y = 0
+    sprite.sourceRect.width = 209
+    sprite.sourceRect.height = 210
+
+    sprite.cornerOffset.x = 0
+    sprite.cornerOffset.y = 0
+
+    sprite.untrimmedSize.width = 209
+    sprite.untrimmedSize.height = 210
+
+    -- the file absolute file name of the sprite
+    sprite.fileData.absoluteFileName = C:/Users/Sky/Documents/Visual Studio 2012/Projects/SFML_Engine_Base1/SFML_Engine_Base/Resources/Graphics/Player_Anim/Run/Player_Anim_Run_0007.png
+
+    -- the modification date of the sprite
+    sprite.fileData.lastModified = 2014-01-25T12:41:54
+
+    -- the creation date of the sprite
+    sprite.fileData.created = 2014-01-25T12:41:54
+
+    -- the file size of the sprite
+    sprite.fileData.fileSize = 67597
+
+
+    =========================================================================
+
+    Use the javascript filter plugin to replace -hover with :hover
+    Player_Anim_Run_0008.png
+
+    -- name without image type extension
+    sprite.trimmedName      = Player_Anim_Run_0008
+
+    -- name with image extension
+    sprite.fullName         = Player_Anim_Run_0008.png
+
+    -- offset of the center of the trimmed sprite from the
+    -- center of the original sprite (used by cocos2d)
+    sprite.absoluteOffset.x = 
+    sprite.absoluteOffset.y = 
+
+    -- list of alias sprites for this one
+    sprite.aliasList = 
+
+    --- frame rectangle with pixel coordinates
+    sprite.frameRect.x = 418
+    sprite.frameRect.y = 210
+    sprite.frameRect.width = 209
+    sprite.frameRect.height = 210
+
+    --- frame rectangle with uv coordinates (0..1)
+    sprite.frameRectRel.x = 0.333333333333333
+    sprite.frameRectRel.y = 0.494117647058824
+    sprite.frameRectRel.width = 0.166666666666667
+    sprite.frameRectRel.height = 0.494117647058824
+
+    --- frame rectangle with uv coordinates (0..1) calculated through JS
+    sprite.frameRectRel.x = 0.3333333333333333
+    sprite.frameRectRel.y = 0.1674641148325359
+    sprite.frameRectRel.width = 0.16666666666666666
+    sprite.frameRectRel.height = 0.1674641148325359
+
+    --- version of the frame rect with "original" width and height
+    sprite.frameRectWithoutRotation.x = 418
+    sprite.frameRectWithoutRotation.y = 210
+    sprite.frameRectWithoutRotation.width = 209
+    sprite.frameRectWithoutRotation.height = 210
+
+    -- true if the sprite was rotated
+    sprite.rotated        = false
+
+    -- true if the sprite does not contain any transparent pixels
+    sprite.isSolid        = true
+
+    -- true if the sprite was trimmed
+    sprite.trimmed        = false
+
+    sprite.sourceRect.x = 0
+    sprite.sourceRect.y = 0
+    sprite.sourceRect.width = 209
+    sprite.sourceRect.height = 210
+
+    sprite.cornerOffset.x = 0
+    sprite.cornerOffset.y = 0
+
+    sprite.untrimmedSize.width = 209
+    sprite.untrimmedSize.height = 210
+
+    -- the file absolute file name of the sprite
+    sprite.fileData.absoluteFileName = C:/Users/Sky/Documents/Visual Studio 2012/Projects/SFML_Engine_Base1/SFML_Engine_Base/Resources/Graphics/Player_Anim/Run/Player_Anim_Run_0008.png
+
+    -- the modification date of the sprite
+    sprite.fileData.lastModified = 2014-01-25T12:41:55
+
+    -- the creation date of the sprite
+    sprite.fileData.created = 2014-01-25T12:41:55
+
+    -- the file size of the sprite
+    sprite.fileData.fileSize = 66151
+
+
+    =========================================================================
+
+    Use the javascript filter plugin to replace -hover with :hover
+    Player_Anim_Run_0009.png
+
+    -- name without image type extension
+    sprite.trimmedName      = Player_Anim_Run_0009
+
+    -- name with image extension
+    sprite.fullName         = Player_Anim_Run_0009.png
+
+    -- offset of the center of the trimmed sprite from the
+    -- center of the original sprite (used by cocos2d)
+    sprite.absoluteOffset.x = 
+    sprite.absoluteOffset.y = 
+
+    -- list of alias sprites for this one
+    sprite.aliasList = 
+
+    --- frame rectangle with pixel coordinates
+    sprite.frameRect.x = 627
+    sprite.frameRect.y = 210
+    sprite.frameRect.width = 209
+    sprite.frameRect.height = 210
+
+    --- frame rectangle with uv coordinates (0..1)
+    sprite.frameRectRel.x = 0.5
+    sprite.frameRectRel.y = 0.494117647058824
+    sprite.frameRectRel.width = 0.166666666666667
+    sprite.frameRectRel.height = 0.494117647058824
+
+    --- frame rectangle with uv coordinates (0..1) calculated through JS
+    sprite.frameRectRel.x = 0.5
+    sprite.frameRectRel.y = 0.1674641148325359
+    sprite.frameRectRel.width = 0.16666666666666666
+    sprite.frameRectRel.height = 0.1674641148325359
+
+    --- version of the frame rect with "original" width and height
+    sprite.frameRectWithoutRotation.x = 627
+    sprite.frameRectWithoutRotation.y = 210
+    sprite.frameRectWithoutRotation.width = 209
+    sprite.frameRectWithoutRotation.height = 210
+
+    -- true if the sprite was rotated
+    sprite.rotated        = false
+
+    -- true if the sprite does not contain any transparent pixels
+    sprite.isSolid        = true
+
+    -- true if the sprite was trimmed
+    sprite.trimmed        = false
+
+    sprite.sourceRect.x = 0
+    sprite.sourceRect.y = 0
+    sprite.sourceRect.width = 209
+    sprite.sourceRect.height = 210
+
+    sprite.cornerOffset.x = 0
+    sprite.cornerOffset.y = 0
+
+    sprite.untrimmedSize.width = 209
+    sprite.untrimmedSize.height = 210
+
+    -- the file absolute file name of the sprite
+    sprite.fileData.absoluteFileName = C:/Users/Sky/Documents/Visual Studio 2012/Projects/SFML_Engine_Base1/SFML_Engine_Base/Resources/Graphics/Player_Anim/Run/Player_Anim_Run_0009.png
+
+    -- the modification date of the sprite
+    sprite.fileData.lastModified = 2014-01-25T12:41:57
+
+    -- the creation date of the sprite
+    sprite.fileData.created = 2014-01-25T12:41:56
+
+    -- the file size of the sprite
+    sprite.fileData.fileSize = 66940
+
+
+    =========================================================================
+
+    Use the javascript filter plugin to replace -hover with :hover
+    Player_Anim_Run_0010.png
+
+    -- name without image type extension
+    sprite.trimmedName      = Player_Anim_Run_0010
+
+    -- name with image extension
+    sprite.fullName         = Player_Anim_Run_0010.png
+
+    -- offset of the center of the trimmed sprite from the
+    -- center of the original sprite (used by cocos2d)
+    sprite.absoluteOffset.x = 
+    sprite.absoluteOffset.y = 
+
+    -- list of alias sprites for this one
+    sprite.aliasList = 
+
+    --- frame rectangle with pixel coordinates
+    sprite.frameRect.x = 836
+    sprite.frameRect.y = 210
+    sprite.frameRect.width = 209
+    sprite.frameRect.height = 210
+
+    --- frame rectangle with uv coordinates (0..1)
+    sprite.frameRectRel.x = 0.666666666666667
+    sprite.frameRectRel.y = 0.494117647058824
+    sprite.frameRectRel.width = 0.166666666666667
+    sprite.frameRectRel.height = 0.494117647058824
+
+    --- frame rectangle with uv coordinates (0..1) calculated through JS
+    sprite.frameRectRel.x = 0.6666666666666666
+    sprite.frameRectRel.y = 0.1674641148325359
+    sprite.frameRectRel.width = 0.16666666666666666
+    sprite.frameRectRel.height = 0.1674641148325359
+
+    --- version of the frame rect with "original" width and height
+    sprite.frameRectWithoutRotation.x = 836
+    sprite.frameRectWithoutRotation.y = 210
+    sprite.frameRectWithoutRotation.width = 209
+    sprite.frameRectWithoutRotation.height = 210
+
+    -- true if the sprite was rotated
+    sprite.rotated        = false
+
+    -- true if the sprite does not contain any transparent pixels
+    sprite.isSolid        = true
+
+    -- true if the sprite was trimmed
+    sprite.trimmed        = false
+
+    sprite.sourceRect.x = 0
+    sprite.sourceRect.y = 0
+    sprite.sourceRect.width = 209
+    sprite.sourceRect.height = 210
+
+    sprite.cornerOffset.x = 0
+    sprite.cornerOffset.y = 0
+
+    sprite.untrimmedSize.width = 209
+    sprite.untrimmedSize.height = 210
+
+    -- the file absolute file name of the sprite
+    sprite.fileData.absoluteFileName = C:/Users/Sky/Documents/Visual Studio 2012/Projects/SFML_Engine_Base1/SFML_Engine_Base/Resources/Graphics/Player_Anim/Run/Player_Anim_Run_0010.png
+
+    -- the modification date of the sprite
+    sprite.fileData.lastModified = 2014-01-25T12:41:59
+
+    -- the creation date of the sprite
+    sprite.fileData.created = 2014-01-25T12:41:59
+
+    -- the file size of the sprite
+    sprite.fileData.fileSize = 65272
+
+
+    =========================================================================
+
+    Use the javascript filter plugin to replace -hover with :hover
+    Player_Anim_Run_0011.png
+
+    -- name without image type extension
+    sprite.trimmedName      = Player_Anim_Run_0011
+
+    -- name with image extension
+    sprite.fullName         = Player_Anim_Run_0011.png
+
+    -- offset of the center of the trimmed sprite from the
+    -- center of the original sprite (used by cocos2d)
+    sprite.absoluteOffset.x = 
+    sprite.absoluteOffset.y = 
+
+    -- list of alias sprites for this one
+    sprite.aliasList = 
+
+    --- frame rectangle with pixel coordinates
+    sprite.frameRect.x = 1045
+    sprite.frameRect.y = 210
+    sprite.frameRect.width = 209
+    sprite.frameRect.height = 210
+
+    --- frame rectangle with uv coordinates (0..1)
+    sprite.frameRectRel.x = 0.833333333333333
+    sprite.frameRectRel.y = 0.494117647058824
+    sprite.frameRectRel.width = 0.166666666666667
+    sprite.frameRectRel.height = 0.494117647058824
+
+    --- frame rectangle with uv coordinates (0..1) calculated through JS
+    sprite.frameRectRel.x = 0.8333333333333334
+    sprite.frameRectRel.y = 0.1674641148325359
+    sprite.frameRectRel.width = 0.16666666666666666
+    sprite.frameRectRel.height = 0.1674641148325359
+
+    --- version of the frame rect with "original" width and height
+    sprite.frameRectWithoutRotation.x = 1045
+    sprite.frameRectWithoutRotation.y = 210
+    sprite.frameRectWithoutRotation.width = 209
+    sprite.frameRectWithoutRotation.height = 210
+
+    -- true if the sprite was rotated
+    sprite.rotated        = false
+
+    -- true if the sprite does not contain any transparent pixels
+    sprite.isSolid        = true
+
+    -- true if the sprite was trimmed
+    sprite.trimmed        = false
+
+    sprite.sourceRect.x = 0
+    sprite.sourceRect.y = 0
+    sprite.sourceRect.width = 209
+    sprite.sourceRect.height = 210
+
+    sprite.cornerOffset.x = 0
+    sprite.cornerOffset.y = 0
+
+    sprite.untrimmedSize.width = 209
+    sprite.untrimmedSize.height = 210
+
+    -- the file absolute file name of the sprite
+    sprite.fileData.absoluteFileName = C:/Users/Sky/Documents/Visual Studio 2012/Projects/SFML_Engine_Base1/SFML_Engine_Base/Resources/Graphics/Player_Anim/Run/Player_Anim_Run_0011.png
+
+    -- the modification date of the sprite
+    sprite.fileData.lastModified = 2014-01-25T12:42:02
+
+    -- the creation date of the sprite
+    sprite.fileData.created = 2014-01-25T12:42:02
+
+    -- the file size of the sprite
+    sprite.fileData.fileSize = 73163
+
+
+

@@ -1,0 +1,53 @@
+Instructions for Level Building in the Suit Em Up (Name not final)
+
+from the folder SuitEmUp_Basev2 open rec/Levels/Tst.txt
+(or use the shortcut in this folder, whatever)
+
+in the file you will find a number of lines 
+ there are several important command to remember when building a level:
+ (Unless marked with a "*" these values must be filled in, 
+ values marked with a "!" means that you need to enter it just as it 
+ is written here (barring the "!") for the desired effect.
+
+Wall! XPosition YPosition Angle Height
+ Places a wall vertex point in a specific position 
+ this vertex point will be linked to the next one and so forth 
+ so remember to put them in the right order.
+ Angle and Height does not have to be defined, 
+ if they're not defined they will be reverted to 0 by default.
+ For more info on Angle and Height speak with Sky...
+
+Enemy! PositionX PositionY AggroRange AttackRange
+ Places an enemy in the level. At the moment you cannot actually engage 
+ real combat so you'll have to pretend that an epic battle is going on.
+ AggroRange and AttackRange will change those values. At the moment you
+ have to enter those two because there is no set standard if you would like 
+ this to be changed please speak to me or any of the other coders and we
+ should be able to help.
+ We only have 1 type of enemy at the moment, we will add more later.
+
+Player! PositionX PositionY
+ [Work In Progress]
+ Doesn't work yet. Player always starts at the coordinates (0, 0)
+ ...sorry about that.
+
+#!
+ the "#" symbol will make that specific line a comment and thus cause it 
+ to be ignored by the level builder.
+ Make sure that you always place your comments behind one of these!!
+ (If you do not use these well the game could very well crash from weird input)
+
+Once you've built your level start the game using the shortcut in this folder.
+
+While playing you can reload the level by pressing "R"
+
+Warning: Only press "R" quickly, never hold it in
+ as pressing it too much will cause the game to lag extensively
+
+Note: Before reloading the level make sure that you save the changes in Tst.txt
+
+If you have any other questions contact me, Hampus or Jokke over Skype
+
+Good Luck :D
+
+\Martin/

@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C1125AF2-9944-4003-8502-BBEFB0BC25DC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>thelastbox</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../deps/SFML-2.1x86/include;../deps/Box2D12/include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>stdafx.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../deps/SFML-2.1x86/lib;../deps/Box2D12/lib/Debug;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../deps/SFML-2.1x86/include;../deps/Box2D12/include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>stdafx.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>../deps/SFML-2.1x86/lib;../deps/Box2D12/lib/Debug;</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation.hpp" />
+    <ClInclude Include="CollisionMan.h" />
+    <ClInclude Include="Crossbow.hpp" />
+    <ClInclude Include="CursorObject.h" />
+    <ClInclude Include="EnemyBullet.h" />
+    <ClInclude Include="EnemyObject.hpp" />
+    <ClInclude Include="Enemy_Larva.hpp" />
+    <ClInclude Include="Film_Grain.hpp" />
+    <ClInclude Include="FontMan.h" />
+    <ClInclude Include="Game.hpp" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="NodeMan.h" />
+    <ClInclude Include="Ground.hpp" />
+    <ClInclude Include="Ground_Bump.hpp" />
+    <ClInclude Include="Hidden_Wall.hpp" />
+    <ClInclude Include="InputMan.h" />
+    <ClInclude Include="Level_Wall.hpp" />
+    <ClInclude Include="Menustate.h" />
+    <ClInclude Include="Menu_Button.hpp" />
+    <ClInclude Include="Morker.h" />
+    <ClInclude Include="MusicPlayer.hpp" />
+    <ClInclude Include="Particle.hpp" />
+    <ClInclude Include="ParticleEmitter.hpp" />
+    <ClInclude Include="PauseMenu.hpp" />
+    <ClInclude Include="PlayerObject.h" />
+    <ClInclude Include="PlayerBullet.hpp" />
+    <ClInclude Include="Player_Arms.hpp" />
+    <ClInclude Include="Prompt.hpp" />
+    <ClInclude Include="ResourceHolder.hpp" />
+    <ClInclude Include="ResourceIdentifiers.hpp" />
+    <ClInclude Include="Scene.hpp" />
+    <ClInclude Include="SceneNode.hpp" />
+    <ClInclude Include="Sfx.h" />
+    <ClInclude Include="SoundPlayer.hpp" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="Stateman.h" />
+    <ClInclude Include="StateManager.hpp" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Gamestate.hpp" />
+    <ClInclude Include="TextureMan.h" />
+    <ClInclude Include="Tool_Whip.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Animation.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="CollisionMan.cpp" />
+    <ClCompile Include="Crossbow.cpp" />
+    <ClCompile Include="CursorObject.cpp" />
+    <ClCompile Include="EnemyBullet.cpp" />
+    <ClCompile Include="EnemyObject.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="Enemy_Larva.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="Film_Grain.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="FontMan.cpp" />
+    <ClCompile Include="Game.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="NodeMan.cpp" />
+    <ClCompile Include="Ground.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="Ground_Bump.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="Hidden_Wall.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="InputMan.cpp" />
+    <ClCompile Include="Level_Wall.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Menustate.cpp" />
+    <ClCompile Include="Menu_Button.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="Morker.cpp" />
+    <ClCompile Include="MusicPlayer.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="ParticleEmitter.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="PauseMenu.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="PlayerObject.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="PlayerBullet.cpp" />
+    <ClCompile Include="Player_Arms.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="Prompt.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="SceneNode.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="SoundPlayer.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="Stateman.cpp" />
+    <ClCompile Include="StateManager.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TextureMan.cpp" />
+    <ClCompile Include="thelastbox.cpp" />
+    <ClCompile Include="Gamestate.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="Tool_Whip.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ResourceHolder.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

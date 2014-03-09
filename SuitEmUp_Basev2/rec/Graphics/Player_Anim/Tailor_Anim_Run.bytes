@@ -1,0 +1,28 @@
+i tk2d 1
+w 1611
+h 1983
+~
+n Player_Anim_Run_0001_Layer-5-copy
+s 1074 661 537 661
+~
+n Player_Anim_Run_0002_Layer-4-copy
+s 537 1322 537 661
+~
+n Player_Anim_Run_0003_Layer-3-copy
+s 537 661 537 661
+~
+n Player_Anim_Run_0004_Layer-1-copy
+s 0 1322 537 661
+~
+n Player_Anim_Run_0005_Layer-5
+s 0 661 537 661
+~
+n Player_Anim_Run_0006_Layer-4
+s 1074 0 537 661
+~
+n Player_Anim_Run_0007_Layer-3
+s 537 0 537 661
+~
+n Player_Anim_Run_0008_Layer-1
+s 0 0 537 661
+~
